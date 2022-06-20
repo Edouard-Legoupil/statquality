@@ -1,0 +1,28 @@
+Package: statquality
+Title: Stat Quality
+Version: 0.0.1
+Author: edouard-legoupil
+Description: Quality Dashbaord
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dashboardthemes,
+    devtools,
+    dplyr,
+    golem,
+    lubridate,
+    ggplot2,
+    plotly,
+    pins,
+    pkgload,
+    shiny,
+    shinydashboard,
+    shinydashboardPlus,
+    shinyjs,
+    shinyWidgets
+Remotes:
+    vidonne/unhcrdesign
+    vidonne/unhcrthemes
+    vidonne/unhcrdown
+    edouard-legoupil/unhcrdatapackage
+RoxygenNote: 7.1.2
